@@ -1,11 +1,12 @@
 # CAREBOT - AI Diagnostic System
-CAREBOT is an AI-powered diagnostic system that allows you to input your symptoms in text format and receive a quick and accurate diagnosis of your illness. The system also comes with a prescription checker that verifies whether the prescribed medications are suitable for your body and work well together.
+In today's fast-evolving healthcare landscape, accessing timely and accurate medical guidance is paramount. Individuals frequently face difficulties in comprehending their symptoms, guaranteeing the security of prescribed medications, and obtaining consultations with specialized physicians. We present to you ,"CareBot," an AI-powered healthcare assistant, to overcome these challenges. CareBot will provide patients with individualized support by leveraging cutting-edge machine learning and natural language processing capabilities. Through symptom analysis, drug compatibility verification, and specialist doctor referrals, CareBot seeks to optimize the patient experience by streamlining the healthcare process, increasing productivity, and improving patient outcomes. Patients can securely handle their healthcare issues with CareBot, getting the help they need smoothly and conveniently.
 
 ## Features
 * Symptom Analysis: CAREBOT analyses the symptoms you input and offers a range of potential diagnoses based on the latest medical knowledge and algorithms.
 * Prescription Checker: CAREBOT checks your prescription and ensures that the medications are safe to take, compatible with your body, and do not cause adverse reactions.
 * Accuracy: CAREBOT provides a high level of accuracy in its diagnosis and prescription checks, thanks to its advanced algorithms and machine learning technology.
 * User-Friendly Interface: CAREBOT is easy to use, with a simple interface that allows you to enter your symptoms and receive a diagnosis and prescription check in a matter of minutes.
+  
 ## Design Idea and approach
 CAREBOT is structured to enhance the healthcare experience by providing a fast, accurate, and secure diagnostic service. It incorporates AI to analyze symptoms, check prescriptions, and recommend specialists, facilitating a holistic approach to patient care. Below is an overview of the implementation ideas, highlighting the technologies, new components, and strategies employed.
  Technologies Used
