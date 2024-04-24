@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Carebot-symptom analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='symptom.css') }}">
+    <link rel="stylesheet" href="symptom.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/css/multi-select-tag.css">
+ </head>
+<script src="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/js/multi-select-tag.js"></script>
+<body>
+  
+    <header class="header">
+      <a href="#" class="logo">CAREBOT</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Team</a>
+        <a href="#contact">Contact</a>
+        <a href="https://b67c84e74e3bd44434.gradio.live">Validate Prescription</a>
+      </nav>
+    </header>
+  <section class="info">
+    <form action="/doc" id="host" method='POST'>
+      <div class="container">
+        <div class="title">FIND YOUR DOCTOR</div>
+        <div class="content">
+                  <div class="specialist">
+                    <span class="s_details"><br>Specialist</span>
+                    <select id="specialist" name="specialist">
+                      <option value="" disabled selected>Select a specialist</option>
+                      <option value="Dermatologist">Dermatologist</option>
+                      <option value="Physiologist">Physiologist</option>
+                      <option value="Cardiologist">Cardiologist</option>
+                      <option value="Neurologist">Neurologist</option>
+                      <option value="Orthopedist">Orthopedist</option>
+                      <option value="Pediatrician">Pediatrician</option>
+                      <option value="Oncologist">Oncologist</option>
+                   </select><br><br>
+                  
+                  </div>
+                  <div class="city">
+                    <span class="city_details"><br>City</span>
+                      <select id="city" name="city">
+                        <option value="" disabled selected>Select your city</option>
+                        <option value="Main St ">Noida</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Pune">Pune</option>
+                        <option value="Jaipur">Jaipur</option>
+                        <option value="Lucknow">Lucknow</option>
+                        <option value="Ahmedabad">Ahmedabad</option>
+                      </select><br>
+                  </div>
+                  <div class="day">
+                    <span class="day_detail"><br>Days Available</span>
+                    <select id="day" name="day">
+                      <option value="" disabled selected>Select a day</option>
+                      <option value="Monday">Monday</option>
+                      <option value="Tuesday">Tuesday</option>
+                      <option value="Wednesday">Wednesday</option>
+                      <option value="Thursday">Thursday</option>
+                      <option value="Friday">Friday</option>
+                      <option value="Saturday">Saturday</option>
+                      <option value="Sunday">Sunday</option>
+                    </select><br><br>
+                  </div>
+                  <div class="time_1">
+                    <span class="time_detail1"><br>Time</span>
+                  
+                    <input type="text" id="time1" name="time12">
+
+                  </div>
+
+        </div>
+              
+        <!-- <div class="button" > -->
+        <!-- <button type="submit">HOST</button> -->
+        <button type="submit" width="30px" height="15px">Find</button>
+        <br><br>
+        <h2>Your doctor is: </h2>
+        <h2>{{res}}</h2>
+      </div> 
+    </form>
+  </section>
+     
+
+</body>
+<!--<script>
+  new MultiSelectTag('symptoms')  // id
+</script>-->
+<!-- <script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-database-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-firestore-compat.js"></script>
+<script src="hosting.js"></script> -->
+</html>
+ 
