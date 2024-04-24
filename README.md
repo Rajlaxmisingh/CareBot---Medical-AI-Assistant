@@ -6,6 +6,29 @@ CAREBOT is an AI-powered diagnostic system that allows you to input your symptom
 * Prescription Checker: CAREBOT checks your prescription and ensures that the medications are safe to take, compatible with your body, and do not cause adverse reactions.
 * Accuracy: CAREBOT provides a high level of accuracy in its diagnosis and prescription checks, thanks to its advanced algorithms and machine learning technology.
 * User-Friendly Interface: CAREBOT is easy to use, with a simple interface that allows you to enter your symptoms and receive a diagnosis and prescription check in a matter of minutes.
+## Design Idea and approach
+CAREBOT is structured to enhance the healthcare experience by providing a fast, accurate, and secure diagnostic service. It incorporates AI to analyze symptoms, check prescriptions, and recommend specialists, facilitating a holistic approach to patient care. Below is an overview of the implementation ideas, highlighting the technologies, new components, and strategies employed.
+ Technologies Used
+* AI and Machine Learning Models: Utilizing Python libraries such as Scikit-learn for initial model training, and TensorFlow for more complex algorithms like XGBoost.
+* Large Language Models (LLM): To power the Prescription Checker, ensuring that prescriptions are safe and personalized.
+* Web Technologies: HTML, CSS, and JavaScript for frontend development, with Flask for backend
+### New Components
+* Prescription Safety Module: A new component that will use an LLM to check for drug interactions, allergies, and suitability based on the patient’s health profile.
+### Technology Stack
+* Backend: Python with Flask as the API framework.
+* AI Models: TensorFlow, Scikit-learn for predictive modeling.
+* Frontend: HTML,CSS , Javascript
+### Dominant Scaling Parameters
+* Data Sizes: Expected to handle large volumes of data including patient records, symptom datasets, and medication interaction databases.
+* Queries Per Second (QPS): Still under review as we are testing still
+### General Rollout Strategy
+* Phase 1: Beta release with Symptom Analysis and Specialist Recommendation to gather user feedback and refine algorithms.
+* Phase 2: Full rollout including the Prescription Checker, following rigorous testing and compliance checks.
+* Phase 3: Expansion of services to additional markets and continuous updating of AI models based on new medical research and user data.
+### Information Security/Privacy Concerns
+* Data Encryption: All patient data will be encrypted both in transit and at rest using advanced encryption standards.
+* Access Controls: Implement role-based access controls to ensure that only authorized personnel can access sensitive data.
+* Compliance: Adherence to HIPAA and GDPR guidelines to protect patient privacy and ensure data security.
 
 ## How to Use
 To use CAREBOT, simply enter your symptoms in the text box provided and click the "diagnose" button. CAREBOT will analyze your symptoms and offer a range of potential diagnoses, along with recommended treatment options. If you have already received a prescription from your doctor, you can use the prescription checker to verify that your medications are safe and effective.
