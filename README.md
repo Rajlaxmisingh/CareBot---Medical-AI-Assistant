@@ -20,14 +20,12 @@ To set up CAREBOT on your local machine, follow these steps:
 
 ### Clone the Repository:
 ```bash
-Copy code
 git clone https://github.com/yourusername/CAREBOT.git
 ```
 Install Dependencies
 Start the Server:
 ```bash
-Copy code
-python app.py
+python .\app.py
 ```
 
 
