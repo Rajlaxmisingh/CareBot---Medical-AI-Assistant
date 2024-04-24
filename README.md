@@ -28,8 +28,6 @@ CAREBOT is continually being updated and improved to provide even more accurate 
 ## Conclusion
 CAREBOT is an AI-powered diagnostic system that offers quick, accurate diagnoses and prescription checks, improving patient outcomes and reducing healthcare costs. With its advanced algorithms and user-friendly interface, CAREBOT is poised to revolutionize the way we approach healthcare and make medical care more accessible and efficient for patients around the world.
 
-## Authors 
-* [Manya Sharma](https://github.com/manya706)
+## Authors
 * [Raj Laxmi Singh](https://github.com/Rajlaxmisingh)
-* [Avi Mandavia](https://github.com/avi-buckup)
 
