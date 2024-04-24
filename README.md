@@ -19,14 +19,16 @@ Flask as the web framework.
 To set up CAREBOT on your local machine, follow these steps:
 
 ### Clone the Repository:
-bash
+```bash
 Copy code
 git clone https://github.com/yourusername/CAREBOT.git
+```
 Install Dependencies
 Start the Server:
-bash
+```bash
 Copy code
 python app.py
+```
 
 
 
