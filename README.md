@@ -1,57 +1,30 @@
-# CAREBOT - AI Diagnostic System
-In today's fast-evolving healthcare landscape, accessing timely and accurate medical guidance is paramount. Individuals frequently face difficulties in comprehending their symptoms, guaranteeing the security of prescribed medications, and obtaining consultations with specialized physicians. We present to you ,"CareBot," an AI-powered healthcare assistant, to overcome these challenges. CareBot will provide patients with individualized support by leveraging cutting-edge machine learning and natural language processing capabilities. Through symptom analysis, drug compatibility verification, and specialist doctor referrals, CareBot seeks to optimize the patient experience by streamlining the healthcare process, increasing productivity, and improving patient outcomes. Patients can securely handle their healthcare issues with CareBot, getting the help they need smoothly and conveniently.
+# CAREBOT AI Diagnostic System#
+## Introduction
+CAREBOT is an advanced AI-powered system designed to enhance healthcare diagnostics and treatment processes. It integrates symptom analysis, prescription checking, and specialist recommendations into a single platform, leveraging artificial intelligence to provide accurate, efficient, and personalized medical care.
 
 ## Features
-* Symptom Analysis: CAREBOT analyses the symptoms you input and offers a range of potential diagnoses based on the latest medical knowledge and algorithms.
-* Prescription Checker: CAREBOT checks your prescription and ensures that the medications are safe to take, compatible with your body, and do not cause adverse reactions.
-* Accuracy: CAREBOT provides a high level of accuracy in its diagnosis and prescription checks, thanks to its advanced algorithms and machine learning technology.
-* User-Friendly Interface: CAREBOT is easy to use, with a simple interface that allows you to enter your symptoms and receive a diagnosis and prescription check in a matter of minutes.
-  
-## Design Idea and approach
-CAREBOT is structured to enhance the healthcare experience by providing a fast, accurate, and secure diagnostic service. It incorporates AI to analyze symptoms, check prescriptions, and recommend specialists, facilitating a holistic approach to patient care. Below is an overview of the implementation ideas, highlighting the technologies, new components, and strategies employed.
- Technologies Used
-* AI and Machine Learning Models: Utilizing Python libraries such as Scikit-learn for initial model training, and TensorFlow for more complex algorithms like XGBoost.
-* Large Language Models (LLM): To power the Prescription Checker, ensuring that prescriptions are safe and personalized.
-* Web Technologies: HTML, CSS, and JavaScript for frontend development, with Flask for backend
-### New Components
-* Prescription Safety Module: A new component that will use an LLM to check for drug interactions, allergies, and suitability based on the patient’s health profile.
-### Technology Stack
-* Backend: Python with Flask as the API framework.
-* AI Models: TensorFlow, Scikit-learn for predictive modeling.
-* Frontend: HTML,CSS , Javascript
-### Dominant Scaling Parameters
-* Data Sizes: Expected to handle large volumes of data including patient records, symptom datasets, and medication interaction databases.
-* Queries Per Second (QPS): Still under review as we are testing still
-### General Rollout Strategy
-* Phase 1: Beta release with Symptom Analysis and Specialist Recommendation to gather user feedback and refine algorithms.
-* Phase 2: Full rollout including the Prescription Checker, following rigorous testing and compliance checks.
-* Phase 3: Expansion of services to additional markets and continuous updating of AI models based on new medical research and user data.
-### Information Security/Privacy Concerns
-* Data Encryption: All patient data will be encrypted both in transit and at rest using advanced encryption standards.
-* Access Controls: Implement role-based access controls to ensure that only authorized personnel can access sensitive data.
-* Compliance: Adherence to HIPAA and GDPR guidelines to protect patient privacy and ensure data security.
+### Symptom Analysis: Utilizes AI models to analyze user-inputted symptoms and suggest potential diagnoses.
+### Prescription Checker: Incorporates a Large Language Model to ensure prescriptions are safe and appropriate, checking for drug interactions and patient-specific contraindications.
+### Specialist Recommendation: Offers tailored specialist referrals based on detailed analysis of doctor performance, availability, and patient needs.
 
-## How to Use
-To use CAREBOT, simply enter your symptoms in the text box provided and click the "diagnose" button. CAREBOT will analyze your symptoms and offer a range of potential diagnoses, along with recommended treatment options. If you have already received a prescription from your doctor, you can use the prescription checker to verify that your medications are safe and effective.
+## Technologies Used
+Python for backend development.
+Scikit-learn for AI model implementation.
+HTML CSS , Javascript for frontend development.
+Flask as the web framework.
+## Installation
+To set up CAREBOT on your local machine, follow these steps:
 
-## Benefits
-CAREBOT provides a range of benefits to patients, doctors, and healthcare providers, including:
+### Clone the Repository:
+bash
+Copy code
+git clone https://github.com/yourusername/CAREBOT.git
+Install Dependencies
+Start the Server:
+bash
+Copy code
+python app.py
 
-* Quick Diagnosis: CAREBOT offers a fast and accurate diagnosis of your illness, allowing you to receive treatment sooner.
-* Improved Accuracy: CAREBOT uses advanced algorithms and machine learning technology to provide accurate diagnoses and prescription checks, improving patient outcomes and reducing the risk of adverse reactions.
-* Reduced Healthcare Costs: By providing accurate diagnoses and prescription checks, CAREBOT reduces the need for costly and time-consuming doctor visits, saving patients and healthcare providers time and money.
-* Enhanced Patient Experience: CAREBOT offers a user-friendly interface that allows patients to enter their symptoms and receive a diagnosis quickly and easily, enhancing the patient experience and improving overall satisfaction.
 
-## Future Developments
-CAREBOT is continually being updated and improved to provide even more accurate diagnoses and prescription checks. Future developments may include:
 
-* Voice Recognition: CAREBOT may soon be able to recognize voice inputs, allowing patients to simply describe their symptoms aloud rather than typing them in.
-* Expanded Symptom Analysis: CAREBOT may expand its symptom analysis capabilities to include a broader range of illnesses and conditions, allowing for even more accurate diagnoses.
-* Integration with Electronic Health Records: CAREBOT may soon be able to integrate with electronic health records, allowing doctors and healthcare providers to access patient data and make more informed treatment decisions.
-
-## Conclusion
-CAREBOT is an AI-powered diagnostic system that offers quick, accurate diagnoses and prescription checks, improving patient outcomes and reducing healthcare costs. With its advanced algorithms and user-friendly interface, CAREBOT is poised to revolutionize the way we approach healthcare and make medical care more accessible and efficient for patients around the world.
-
-## Author
-* [Raj Laxmi Singh](https://github.com/Rajlaxmisingh)
 
